@@ -3,72 +3,84 @@
     "name": "Saint Laurent",
     "price": 1500,
     "description": "Shopping Bag East-West Tote in Smooth Leather",
-    "image": "/images/b1.jpeg"
+    "image": "/images/b1.jpeg",
+    "type": "tote"
   },
   {
     "name": "Tom Ford",
     "price": 2250,
     "description": "Audrey Large Tote Bag in Grain Leather",
-    "image": "/images/b2.jpeg"
+    "image": "/images/b2.jpeg",
+    "type": "tote"
   },
   {
     "name": "Valentino Garavani",
     "price": 1890,
     "description": "Antibes Medium Canvas Shopping Tote Bag",
-    "image": "/images/b3.jpeg"
+    "image": "/images/b3.jpeg",
+    "type": "tote"
   },
   {
     "name": "Balmain",
     "price": 1350,
     "description": "Embleme Shopper Tote Bag in Grained Leather",
-    "image": "/images/b4.webp"
+    "image": "/images/b4.webp",
+    "type": "tote"
   },
   {
     "name": "Chloe",
     "price": 2090,
     "description": "Spin North-South Tote Bag in Leather",
-    "image": "/images/b5.webp"
+    "image": "/images/b5.webp",
+    "type": "tote"
   },
   {
     "name": "Chloe",
     "price": 950,
     "description": "Woody Large Mifuko Basket Bag in Fair Trade Paper Embellished with Linen",
-    "image": "/images/b6.jpeg"
+    "image": "/images/b6.jpeg",
+    "type": "basket"
   },
   {
     "name": "Marc Jacobs",
     "price": 395,
     "description": "The Small Leather Tote Bag",
-    "image": "/images/b7.webp"
+    "image": "/images/b7.webp",
+    "type": "tote"
   },
   {
     "name": "Saint Laurent",
     "price": 2350,
     "description": "Niki Medium YSL Shopper Tote Bag in Crinkled Leather",
-    "image": "/images/b8.jpeg"
+    "image": "/images/b8.jpeg",
+    "type": "tote"
   },
   {
     "name": "Saint Laurent",
     "price": 2500,
     "description": "Paris VII Small YSL Hobo Bag in Grained Deer Leather",
-    "image": "/images/b9.webp"
+    "image": "/images/b9.webp",
+    "type": "hobo"
   },
   {
     "name": "Marc Jacobs",
     "price": 795,
     "description": "The Dakota Belted Leather Tote Bag",
-    "image": "/images/b10.webp"
+    "image": "/images/b10.webp",
+    "type": "tote"
   },
   {
     "name": "Tom Ford",
     "price": 3490,
     "description": "Tara Flap Shoulder Bag in Grain Leather",
-    "image": "/images/b11.webp"
+    "image": "/images/b11.webp",
+    "type": "shoulder"
   },
   {
     "name": "Valentino Garavani",
     "price": 2350,
     "description": "Rockstud Medium Leather Tote Bag",
-    "image": "/images/b12.webp"
+    "image": "/images/b12.webp",
+    "type": "tote"
   }
 ]
