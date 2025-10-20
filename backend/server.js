@@ -1,7 +1,7 @@
 // server.js
 const express = require('express');
 const cors = require('cors');
-const db = require('./db'); // Optional - just to connect/test
+// const db = require('./db'); // Optional - just to connect/test
 const productRoutes = require('./routes/products');
 
 const app = express();
