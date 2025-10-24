@@ -1,4 +1,5 @@
 import React from 'react';
+import ProductSlider from '../components/ProductSlider';
 import '../styles/style.css';
 import '../styles/shared.css';
 
@@ -19,10 +20,9 @@ const Home = () => {
       </section>
 
       <section className="product__grid">
-        <h2 className="product__grid--title">New Arrivals</h2>
-        <div className="product__grid--container" id="products__grid--items">
+          <h2 className="product__grid--title">New Arrivals</h2>
+          <ProductSlider title="New Arrivals" limit={7} />
           {/* Product cards will go here dynamically */}
-        </div>
       </section>
     </>
   );
