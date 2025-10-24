@@ -9,7 +9,7 @@ const ContactPage = () => {
       <main>
         <section>
           <img
-            id="main-img"
+            id="main-img2"
             src="/Images/sl1.avif"
             alt="Floral Valentino Bag"
           />

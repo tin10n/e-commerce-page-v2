@@ -21,7 +21,7 @@ const Home = () => {
 
       <section className="product__grid">
           <h2 className="product__grid--title">New Arrivals</h2>
-          <ProductSlider title="New Arrivals" limit={7} />
+          <ProductSlider title="" limit={7} />
           {/* Product cards will go here dynamically */}
       </section>
     </>

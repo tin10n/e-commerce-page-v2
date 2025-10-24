@@ -1,10 +1,11 @@
 import React, { useEffect, useState } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Navigation, Pagination, Autoplay } from 'swiper';
+import { Navigation, Pagination, Autoplay } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
-import '../styles/product.css';
+import '../styles/products.css';
+import '../styles/slider.css';
 
 const ProductSlider = ({ title = 'New Arrivals', limit = 7 }) => {
   const [products, setProducts] = useState([]);
@@ -12,7 +13,8 @@ const ProductSlider = ({ title = 'New Arrivals', limit = 7 }) => {
   const [error, setError] = useState(null);
 
   useEffect(() => {
-    fetch(`/api/products?limit=${limit}&sort=newest`)
+    fetch(`/api/products/new?limit=${limit}`)
+    // fetch(`/api/products?limit=${limit}&sort=newest`)
       .then((res) => {
         if (!res.ok) throw new Error('Network response was not ok');
         return res.json();
