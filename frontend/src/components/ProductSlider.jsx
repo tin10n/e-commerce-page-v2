@@ -7,13 +7,14 @@ import 'swiper/css/pagination';
 import '../styles/products.css';
 import '../styles/slider.css';
 
+const API_BASE_URL = process.env.REACT_APP_API_URL || 'http://localhost:5000';
 const ProductSlider = ({ title = 'New Arrivals', limit = 7 }) => {
   const [products, setProducts] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
 
   useEffect(() => {
-    fetch(`/api/products/new?limit=${limit}`)
+    fetch(`${API_BASE_URL}/api/products/new?limit=${limit}`)
     // fetch(`/api/products?limit=${limit}&sort=newest`)
       .then((res) => {
         if (!res.ok) throw new Error('Network response was not ok');

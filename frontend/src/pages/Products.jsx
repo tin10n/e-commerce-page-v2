@@ -10,10 +10,11 @@ const Products = () => {
   const [selectedType, setSelectedType] = useState('All');
   const [priceRange, setPriceRange] = useState('All');
   const [showFilters, setShowFilters] = useState(false); // Mobile dropdown toggle
+  const API_BASE_URL = process.env.REACT_APP_API_URL || 'http://localhost:5000';
 
   // Fetch products
   useEffect(() => {
-    fetch('/api/products') // uses proxy!
+    fetch(`${API_BASE_URL}/api/products`) // uses proxy!
       .then((res) => {
         if (!res.ok) throw new Error('Network response was not ok');
         return res.json();
@@ -27,7 +28,7 @@ const Products = () => {
         setError('Failed to load products');
         setLoading(false);
       });
-  }, []);
+  }, [API_BASE_URL]);
 
   // Filter logic
   useEffect(() => {
@@ -63,7 +64,7 @@ const Products = () => {
         {showFilters ? 'Hide Filters' : 'Filter Products'}
       </button>
 
-      {/* ---------- FILTER SECTION ---------- */}
+      {/* ---------- FILTER SECTION ------------ */}
      <section
   className={`filter-dropdown ${showFilters ? 'show' : 'hide'}`}
 >
