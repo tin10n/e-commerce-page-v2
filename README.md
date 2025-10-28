@@ -1,4 +1,4 @@
-# 💎 SZN — Luxury E-Commerce Site
+# 👜✨🏷️ SZN — Luxury E-Commerce Site 👜✨🏷️
 
 **SZN** is a full-stack, responsive, and dynamic eCommerce web application that brings luxury to online shopping.  
 It combines a refined user interface with a robust backend powered by Node.js, Express, and PostgreSQL — offering a seamless and sophisticated shopping experience.
@@ -63,8 +63,10 @@ Every product, price, and image is served dynamically from a connected PostgreSQ
 ```bash
 git clone https://github.com/yourusername/luxuryshop.git
 cd luxuryshop
+```
 
 ### 2. Install Dependencies
+```bash
 # Frontend
 cd frontend
 npm install
@@ -72,20 +74,37 @@ npm install
 # Backend
 cd ../backend
 npm install
+```
 
 ### 3. Set Up Environment Variables
 Create a .env file inside your /backend directory:
-
+```bash
 DB_HOST=your_database_host
 DB_USER=your_database_user
 DB_NAME=your_database_name
 DB_PASSWORD=your_database_password
 DB_URL=your_postgres_connection_string
 PORT=5000
+```
 
 Create a .env file inside your /frontend directory:
-
+```bash
 REACT_APP_API_URL=https://e-commerce-page-v2-backend.onrender.com
+```
+
+### 4. Run the App Locally
+Run both the frontend and backend in separate terminals:
+```bash
+# Frontend
+cd frontend
+npm start
+
+# Backend
+cd backend
+npm start
+```
+
+Your app will be live at 👉 http://localhost:3000
 
 ---
 
@@ -95,15 +114,12 @@ REACT_APP_API_URL=https://e-commerce-page-v2-backend.onrender.com
 - Displays detailed product information with pricing and descriptions  
 - Future-ready “Add to Cart” functionality 
 
-🛒 Implement full cart and checkout functionality
-
-🔍 Add real-time search and sorting options
-
-👤 User authentication (login, profile, and orders)
-
-💬 Product reviews and star ratings
-
-📸 Image optimization and CDN delivery
+### Upcoming Features
+- 🛒 Implement full cart and checkout functionality
+- 🔍 Add real-time search and sorting options
+- 👤 User authentication (login, profile, and orders)
+- 💬 Product reviews and star ratings
+- 📸 Image optimization and CDN delivery
 
 ** ‧₊˚ ⋅ Feel free to explore the code, browse through the products, and enjoy the curated selection! ⋅ ‧₊˚ ** 
 
