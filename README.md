@@ -1,4 +1,4 @@
-# 👜✨🏷️ SZN — Luxury E-Commerce Site 👜✨🏷️
+# 💎✨ SZN — Luxury E-Commerce App ✨💎
 
 **SZN** is a full-stack, responsive, and dynamic eCommerce web application that brings luxury to online shopping.  
 It combines a refined user interface with a robust backend powered by Node.js, Express, and PostgreSQL — offering a seamless and sophisticated shopping experience.
@@ -121,6 +121,8 @@ Your app will be live at 👉 http://localhost:3000
 - 💬 Product reviews and star ratings
 - 📸 Image optimization and CDN delivery
 
-** ‧₊˚ ⋅ Feel free to explore the code, browse through the products, and enjoy the curated selection! ⋅ ‧₊˚ ** 
+---
+
+### ** ‧₊˚ ⋅ Feel free to explore the code, browse through the products, and enjoy the curated selection! ⋅ ‧₊˚ ** 
 
 “Luxury is in each detail.” — Hubert de Givenchy
