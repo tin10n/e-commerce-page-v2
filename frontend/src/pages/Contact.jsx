@@ -10,7 +10,7 @@ const ContactPage = () => {
         <section>
           <img
             id="main-img2"
-            src="/Images/sl1.avif"
+            src="/images/sl1.avif"
             alt="Floral Valentino Bag"
           />
           <h1 className="contact__title">Contact Us</h1>

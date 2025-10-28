@@ -1,13 +1,14 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
     <footer className="shared__footer">
       <div className="col__1">
         <h2>USEFUL LINKS</h2>
-        <a href="/">Home</a>
-        <a href="/products">Products</a>
-        <a href="/contact">Contact</a>
+        <Link to="/">Home</Link>
+        <Link to="/products">Products</Link>
+        <Link to="/contact">Contact</Link>
       </div>
 
       <div className="col__2">

@@ -1,4 +1,6 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+
 import ProductSlider from '../components/ProductSlider';
 import '../styles/style.css';
 import '../styles/shared.css';
@@ -15,7 +17,7 @@ const Home = () => {
         <div className="hero--content">
           <h1>Home of Luxury</h1>
           <p>Designed for Elegance and Distinction</p>
-          <a href="/products" className="hero--btn">Explore More</a>
+          <Link to="/products" className="hero--btn">Explore More</Link>
         </div>
       </section>
 
